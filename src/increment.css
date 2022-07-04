@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'ds-digital';
+    src: url('./assets/fonts/ds_digital/DS-DIGIB.TTF');
+  }
+  
+  * {
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  body {
+    /* background-image: linear-gradient(red, yellow); */
+    background-color: rgb(167, 165, 165);
+  }
+  #increment{
+    padding-top: 30px;
+  }
+#increment .increment{
+    height: 500px; 
+    background: rgb(241, 241, 241);
+    border-radius: 15px;
+}
+#increment .increment h1{
+    margin-top: 40px;
+    padding: 10px 0px;
+    margin-bottom: 50px;
+    background: rgb(79, 59, 171);   
+}
+#increment .increment h2{
+    padding: 10px 10px;
+    font-size: 50px;
+}
+#increment .increment input{
+    padding: 0px 20px;
+    border: none;
+    background: none;
+    border-bottom: 2px solid rgb(66, 66, 66);
+    margin-right: 10px;
+    outline: 0;
+}
+/* #increment .increment button{
+    padding: 0px 12px;
+    border-radius: 50%;
+    border: none;
+    background: rgb(79, 59, 171);
+    transition: all linear 0.3s;
+} */
+/* #increment .increment button:hover{
+  background: rgb(12, 110, 21);
+} */
+#increment .increment .button-one{
+    margin-right: 10px;
+}
+#increment .increment .button-two{
+    transition: all linear 0.4s;
+}
+#increment .increment .button-two:hover{
+    background: red;
+    color: white;
+}
+#increment .increment button h2{
+    font-size: 30px;
+    color: white;
+}
+ol li{
+  list-style: none;
+  text-transform: capitalize;
+  padding-left: -20px;
+  float: left;
+  padding-left: 18px;
+  padding-top: 16px;
+}
